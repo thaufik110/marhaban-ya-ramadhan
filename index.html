@@ -38,7 +38,13 @@
 			ftganti = 0;
 			fungsi = 0;
 			fungsiAwal = 0;
-			deffotostiker = fotostiker.src;</script>
+			deffotostiker = fotostiker.src;
+			document.getElementById("text").onclick = function () {
+				if (fungsiAwal == 0) {
+					audio.play();
+					fungsiAwal = 1;
+				}
+			}</script>
 	</body>
 
 </html>
